@@ -1,0 +1,31 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+.image {
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.data {
+	padding-top: 70px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.email{
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.data a:hover{
+	transition: .2s ease-in-out;
+	opacity: 0.5;
+}
+
+.data a{
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	padding-left: 15px;
+	padding-right: 15px;	
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+  font-family: "Roboto", sans-serif; 
+}
+
+nav {
+	text-transform: uppercase;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	height: 80px;
+}
+
+nav ul {
+	text-transform: uppercase;
+	float: right;
+	margin-right: 30px;
+}
+
+nav h4{
+	float: left;
+	padding-top: 20px;
+	padding-left: 45px;
+	font-size: 25pt;
+	letter-spacing: 2.5px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 25px 2em;
+}
+
+nav a { 
+  color: white;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  transition: .2s ease-in-out;
+}
+nav h4:hover{
+	opacity:0.8;
+}
+
+nav a:hover{
+  color: gray;
+} 
+
+.nav-bg {
+  transition: .45s ease-in-out;
+}
+.site-footer {
+  height: 40px;  
+}
+
+.site-footer1 a:hover{
+	transition: .2s ease-in-out;
+	opacity: 0.5;
+}
+
+.site-footer1 a{
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+
+.site-footer1{	
+	background-color: f0f0f0;
+	height:50px;
+	text-align: center;
+	padding-top: 25px;
+}
+.site-footer {
+  background-color: 1f1f1f;
+     font-family: europa;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 1.6em;
+	color:gray;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 40px;
+}
+
+.name{
+	font-size: 20px;
+}
